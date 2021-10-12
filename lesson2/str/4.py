@@ -13,6 +13,6 @@ print("ри" in st, "abc" in st)
 print(st[0], st[5], st[-1], st[-3])
 # print(st[6])  # IndexError: string index out of range
 
-# st[0] = "п"  # TypeError: 'str' object does not support item assignment
+st[0] = "п"  # TypeError: 'str' object does not support item assignment
 
 
